@@ -3,9 +3,12 @@
     margin: 0;
     box-sizing: 0;
 }
+body{
+    background-image:url(/images/bg.jpg);
+}
 .note{
     text-align: center;
-    margin: auto;
+    margin: 20px;
 }
 .nav {
     display: grid;
@@ -28,7 +31,7 @@
 h1{
     font-family: 'Roboto', sans-serif;
     text-align: center;   
-    margin-bottom: 20px;
+    margin: 20px;
 }
 .link{
     display: grid;
@@ -36,8 +39,6 @@ h1{
     height: 50px;
     place-items: center;
 }
-
-
 #Whoami p{
     font-family: 'Roboto', sans-serif;
     text-align: center;
@@ -48,6 +49,7 @@ h1{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     place-content: center;
+    margin: 25px;
     gap:25px
 }
 #Certificates img{
@@ -55,13 +57,14 @@ h1{
 }
 #Certificates p,h3{
     text-align: center;
-    margin-bottom: 10px;
+    margin: 10px;
 }
 #Proyects {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
     place-content: center;
-    gap:25px
+    margin: 25px;
+    gap:25px;
 }
 #Proyects img{
     width: 100%;
