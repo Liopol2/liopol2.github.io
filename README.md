@@ -1,1 +1,2 @@
-# This is my new Webpage, simple but fast and serviceable.
+# This is my new Webpage
+Simple but fast and serviceable.
