@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+*{
+    margin: 0;
+    box-sizing: 0;
+}
+.note{
+    text-align: center;
+    margin: auto;
+}
+.nav {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
+    place-items: center;
+    text-align: center;
+    width: 100%;
+    height: minmax(40px,160px);
+    background-color: #000;
+    margin-bottom:20px;    
+}
+.nav a{
+    color: white;
+    font-family:'Roboto', sans-serif;
+    display: grid;
+    height: 20px;
+    padding: 20px;
+    place-self: center;
+}
+h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;   
+    margin-bottom: 20px;
+}
+.link{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(50px,33%));
+    height: 50px;
+    place-items: center;
+}
+
+
+#Whoami p{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 20px;
+}
+#Certificates{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    place-content: center;
+    gap:25px
+}
+#Certificates img{
+    width: 100%;
+}
+#Certificates p,h3{
+    text-align: center;
+    margin-bottom: 10px;
+}
+#Proyects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    place-content: center;
+    gap:25px
+}
+#Proyects img{
+    width: 100%;
+}
+#Proyects p,h3{
+    text-align: center;
+    margin-bottom: 10px;
+    color: #000;
+    font-style: none;
+}
